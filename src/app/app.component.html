@@ -1,1 +1,10 @@
-<h1>New Project </h1>
+<hr>
+Nom : {{nom}}<br>
+Age : {{age}}<br>
+Adresse : {{adresse}}<br>
+<input #name
+ bind-value="getName()">
+<button on-click="modifier(name.value)">Modifier le nom</button>
+<hr>
+
+<app-couleur-component></app-couleur-component>

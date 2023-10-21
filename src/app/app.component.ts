@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-new-project';
+
+  nom:string ='Hadil Abdesslem';
+age:number =23;
+adresse:string ='chez moi ou autre part :)';
+getName(){
+  return this.nom;
+}
+modifier(newName:string){
+this.nom=newName;
+}
 }
